@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Página de ejemplo">
+	<title></title>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<legend>Datos</legend>
+
+			<input type="text" name="name" id="name" maxlength="5" placeholder="Ingresa tu nombre">
+			<br>
+			<input type="password" name="pass">
+			<br>
+			<h2>Seleccione género</h2>
+			<label for="genero_1"><input type="radio" name="genero" id="genero_1">Hombre </label>
+			<label for="genero_2"><input type="radio" name="genero" id="genero_2">Mujer </label>
+			<br>
+			<h2>Seleccione habilidad</h2>
+			<input type="checkbox" name="seleccion" value="">CSS
+			<br>
+			<input type="checkbox" name="seleccion" value="">HTML5
+			<br>
+			<input type="checkbox" name="seleccion" value="">Javascript
+			<br>
+			<input type="checkbox" name="seleccion" value="">Ruby
+			<br>
+			<h2>Seleccione vehículo</h2>
+			<select name="autos" id="seleccion">
+				<option value="">-- Seleccione modelo</option>
+				<option value="1">Mazda 3</option>
+				<option value="2">Mazda CX-5</option>
+			</select>
+			<br>
+			<h2>Escriba un comentario</h2>
+			<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+			<br>
+			<input type="email" name="email" placeholder="Ingresa tu email">
+			<br>
+			<input type="number" name="numero">
+			<br>
+			<input type="color" name="colores">
+			<hr>
+			<input type="button" name="btn" value="Enviar">
+		</fieldset>
+	</form>
+</body>
+</html>
